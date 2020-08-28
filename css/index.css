@@ -11,3 +11,171 @@ body {
 .logo > img {
   width: 50px;
 }
+
+/* Mobile */
+@media (max-width: 599px) {
+  .logo, header > h1 {
+    text-align: center;
+    margin: 5px;
+  }
+  .hamburger {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background-color: dimgray;
+    padding: 3px;
+  }
+  
+  .menu {
+    font-size: 0;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid gainsboro;
+  }
+
+  .product {
+    border: 1px solid gainsboro;
+    padding: 5px;
+    margin: 5px 15px;
+    border-radius: 3px;
+  }
+
+   .product > i, .product > h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+  }
+} 
+
+/*Tablet */
+@media (min-width: 600px) and (max-width: 990px) {
+    header {
+      display: flex;
+      flex: row;
+      margin: 0;
+    }
+
+    header > h1 {
+      text-align: center;
+      margin-left: 21%;
+    }
+
+    .logo {   
+      margin-left: 15%;
+      margin-top: 1%;
+    }
+
+    .hamburger {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background-color: dimgray;
+    padding: 3px;
+  }
+  
+  .menu {
+    font-size: 0;
+  }
+    
+    main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid gainsboro;
+  }
+
+  .product {
+    border: 1px solid gainsboro;
+    padding: 5px;
+    margin: 5px 15px;
+    border-radius: 3px;
+  }
+
+   .product > i, .product > h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+  }
+  }
+
+
+/*Large Screens */ 
+@media (min-width: 991px) {
+  header {
+    display: flex;
+    flex: row;
+    margin: 0;
+  }
+
+  header > h1 {
+    text-align: center;
+    margin-left: 21%;
+  }
+
+  .logo {   
+    margin-left: 15%;
+    margin-top: 1%;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: dimgray;
+    justify-content: flex-end;
+    color: white;
+  }
+
+  .hamburger {
+    font-size: 0;
+  }
+
+  .menu > li {
+    padding: 20px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid gainsboro;
+  }
+
+  .product {
+    border: 1px solid gainsboro;
+    padding: 5px;
+    margin: 15px;
+    width: 33%;
+    border-radius: 3px;
+  }
+
+  .product > i, .product > h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+}
